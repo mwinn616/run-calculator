@@ -11,6 +11,7 @@ body {
     text-align: center;
     margin: 20px;
     background-color: #fff1ca;
+     font-size: 18px;
 }
 h2 {
     font-size: 32px;
@@ -29,7 +30,7 @@ label {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 650px;
+    max-width: 400px;
     height: 100vh;
 }
 
@@ -96,6 +97,9 @@ button {
     background-color: #123458;
     font-family: inherit;
     font-weight: bold;
+    height: 50px;
+    max-width: 400px;
+    display: block;
 }
 
 button:active {
