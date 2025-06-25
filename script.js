@@ -1,12 +1,3 @@
-var modal = {
-    open: function(message) {
-        document.getElementById("modal-message").textContent = message;
-        document.getElementById("modal-window").style.display = "block";
-    },
-    close: function() {
-        document.getElementById("modal-window").style.display = "none";
-    }
-};
 
 function seconds_to_hhmmss(seconds) {
     var h = Math.floor(seconds / 3600);
