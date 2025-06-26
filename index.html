@@ -10,21 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
+   
 
     <div class="container">
-        <div class="header">
-            <h2>Running Pace Calculator</h2>
+         <header>
+            <div class="main-heading">
+            <img id="logo" src="/images/runninglogo.jpg" alt="Running Pace Calculator Logo" class="logo">
+            <h1>Running Pace Calculator</h1>
+            </div>
             <p>Enter data in two of the three fields in order to calculate the data for the remaining field.</p>
-        </div>
+    </header>
 
         <div class="time section">
+            <img src="/images/time.svg" alt="Time Icon" class="icon">
             <label class="miniheader">Time (hh:mm:ss)</label><br>
-            <input type="number" id="time-hours" placeholder="h" oninput="showResetButton()"> :
-            <input type="number" id="time-minutes" placeholder="m" oninput="showResetButton()"> :
-            <input type="number" id="time-seconds" placeholder="s" oninput="showResetButton()">
+            <input type="number" id="time-hours" placeholder="hh" oninput="showResetButton()"> :
+            <input type="number" id="time-minutes" placeholder="mm" oninput="showResetButton()"> :
+            <input type="number" id="time-seconds" placeholder="ss" oninput="showResetButton()">
         </div>
 
         <div class="distance section">
+            <img src="/images/distance.svg" alt="Distance Icon" class="icon">
             <label>Distance</label><br>
         
             <!-- Dropdown for predefined race distances -->
@@ -43,6 +49,7 @@
         
 
         <div class="pace section">
+            <img src="/images/pace.svg" alt="Pace Icon" class="icon">
             <label>Pace (mm:ss)</label><br>
             <input type="number" id="pace-minutes" placeholder="mm" oninput="showResetButton()"> :
             <input type="number" id="pace-seconds" placeholder="ss" oninput="showResetButton()">
